@@ -85,7 +85,7 @@ These hooks can be used to implement custom logic that your application needs. F
 For a full list of Forge hooks and usage examples, see the [hooks.md](../config/hooks.md "mention") documentation.
 :::
 
-If you want to share a specific sequence of build hook logic, you can modularize your hook code into a **plugin** instead. This is how Forge's [webpack.md](../config/plugins/webpack.md "mention") works, for instance. For more details on authoring custom plugins, see the [writing-plugins.md](../advanced/extending-electron-forge/writing-plugins.md "mention") guide.
+If you want to share a specific sequence of build hook logic, you can modularize your hook code into a **plugin** instead. This is how Forge's [webpack.md](../config/plugins/webpack.mdx "mention") works, for instance. For more details on authoring custom plugins, see the [writing-plugins.md](../advanced/extending-electron-forge/writing-plugins.md "mention") guide.
 
 ## Cross-platform build systems
 

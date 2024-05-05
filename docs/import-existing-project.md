@@ -66,7 +66,7 @@ To start using Forge, add a few command scripts to your package.json file:
 ```
 
 
-Then, set up your Forge [configuration.md](config/configuration.md "mention") in the `config.forge` field in package.json.
+Then, set up your Forge [configuration.md](config/configuration.mdx "mention") in the `config.forge` field in package.json.
 
 ```json title="package.json" 
 {

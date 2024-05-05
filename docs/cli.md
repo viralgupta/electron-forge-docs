@@ -6,7 +6,7 @@ description: How to use the command line interface (CLI) commands for Electron F
 
 ## Overview
 
-Forge's CLI is the main way to run Electron Forge commands. It consists of a thin wrapper for its core API. Configuration for these commands is done through your [Forge configuration](config/configuration.md) object.
+Forge's CLI is the main way to run Electron Forge commands. It consists of a thin wrapper for its core API. Configuration for these commands is done through your [Forge configuration](./config/configuration.mdx) object.
 
 If you want to use the core API programmatically, see the [#programmatic-usage](cli.md#programmatic-usage "mention") section below.
 
@@ -162,7 +162,7 @@ This command will launch your app in dev mode with the `electron` binary in the 
 
 If you type `rs` (and hit enter) in the same terminal where you ran the start command, the running app will be terminated and restarted.
 
-Forge plugins can override this command to run custom development logic. For example, the [webpack.md](config/plugins/webpack.md "mention") runs a webpack-dev-server instance to provide live reloading and HMR.
+Forge plugins can override this command to run custom development logic. For example, the [webpack.md](config/plugins/webpack.mdx "mention") runs a webpack-dev-server instance to provide live reloading and HMR.
 
 #### Options
 

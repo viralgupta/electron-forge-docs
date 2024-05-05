@@ -14,7 +14,7 @@ You can only build the Squirrel.Windows target on a Windows machine or on a Linu
 
 ## Usage
 
-Add this module to the [makers](./) section of your [Forge configuration](../configuration.md):
+Add this module to the [makers](./) section of your [Forge configuration](../configuration.mdx):
 
 ```jsx title="forge.config.js" 
 module.exports = {

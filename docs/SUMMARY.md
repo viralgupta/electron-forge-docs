@@ -6,15 +6,15 @@
 
 ## Configuration <a href="#config" id="config"></a>
 
-* [Overview](config/configuration.md)
+* [Overview](config/configuration.mdx)
 * [Plugins](config/plugins/README.md)
-  * [Webpack Plugin](config/plugins/webpack.md)
-  * [Vite Plugin](config/plugins/vite.md)
+  * [Webpack Plugin](config/plugins/webpack.mdx)
+  * [Vite Plugin](config/plugins/vite.mdx)
   * [Electronegativity Plugin](config/plugins/electronegativity.md)
   * [Auto Unpack Native Modules Plugin](config/plugins/auto-unpack-natives.md)
   * [Local Electron Plugin](config/plugins/local-electron.md)
-  * [Fuses Plugin](config/plugins/fuses.md)
-* [Makers](config/makers/README.md)
+  * [Fuses Plugin](config/plugins/fuses.mdx)
+* [Makers](config/makers/README.mdx)
   * [AppX](config/makers/appx.md)
   * [deb](config/makers/deb.md)
   * [DMG](config/makers/dmg.md)
@@ -42,7 +42,7 @@
 
 ## Built-in Templates <a href="#templates" id="templates"></a>
 
-* [Vite](templates/vite.md)
+* [Vite](templates/vite.mdx)
 * [Vite + TypeScript](templates/vite-+-typescript.md)
 * [Webpack](templates/webpack-template.md)
 * [Webpack + Typescript](templates/typescript-+-webpack-template.md)
@@ -55,9 +55,9 @@
 * [Custom App Icons](guides/create-and-add-icons.md)
 * [Framework Integration](guides/framework-integration/README.md)
   * [Parcel](guides/framework-integration/parcel.md)
-  * [React](guides/framework-integration/react.md)
-  * [React with TypeScript](guides/framework-integration/react-with-typescript.md)
-  * [Vue 3](guides/framework-integration/vue-3.md)
+  * [React](guides/framework-integration/react.mdx)
+  * [React with TypeScript](guides/framework-integration/react-with-typescript.mdx)
+  * [Vue 3](guides/framework-integration/vue-3.mdx)
 * [Developing with WSL](guides/developing-with-wsl.md)
 
 ## Advanced
