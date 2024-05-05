@@ -4,26 +4,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Electron Forge is an all-in-one tool for packaging and distributing Electron applications.',
   favicon: 'favicon/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://www.electronforge.io/',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'electron',
+  projectName: 'forge', // Usually your repo name.
 
   // onBrokenLinks: 'throw',
   // onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -36,10 +26,8 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/electron-forge/electron-forge-docs/',
         },
         blog: false,
         theme: {
@@ -50,7 +38,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Electron Forge',
@@ -60,12 +47,12 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/electron/forge',
           label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://discord.com/invite/APGC3k5yaH',
           label: 'Discord',
           position: 'right',
         },
@@ -82,7 +69,7 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
   plugins: [
-    // require.resolve('docusaurus-lunr-search')
+    require.resolve('docusaurus-lunr-search')
   ]
 };
 
