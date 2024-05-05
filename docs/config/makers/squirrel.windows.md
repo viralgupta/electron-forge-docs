@@ -6,7 +6,7 @@ description: Create a Windows installer for your Electron app using Electron For
 
 The Squirrel.Windows target builds your application using the [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) framework. It generates three files:
 
-<table><thead><tr><th width="258">File</th><th>Description</th></tr></thead><tbody><tr><td><code>{appName} Setup.exe</code></td><td>The main executable installer for your application</td></tr><tr><td><code>{appName}-full.nupkg</code></td><td>The NuGet package file used for updates</td></tr><tr><td><code>RELEASES</code></td><td>Metadata file used to check if an update is available</td></tr></tbody></table>
+<table><thead><tr><th width="258">File</th><th>Description</th></tr></thead><tbody><tr><td><code>\{appName\} Setup.exe</code></td><td>The main executable installer for your application</td></tr><tr><td><code>\{appName\}-full.nupkg</code></td><td>The NuGet package file used for updates</td></tr><tr><td><code>RELEASES</code></td><td>Metadata file used to check if an update is available</td></tr></tbody></table>
 
 Squirrel.Windows is a no-prompt, no-hassle, no-admin method of installing Windows applications, and is therefore the most user friendly you can get.
 
