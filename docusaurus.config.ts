@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Electron Forge',
   tagline: 'Electron Forge is an all-in-one tool for packaging and distributing Electron applications.',
   favicon: 'favicon/favicon.ico',
   url: 'https://www.electronforge.io/',
@@ -64,8 +64,11 @@ const config: Config = {
       ],
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.nightOwlLight,
+      darkTheme: prismThemes.nightOwl,
+      // theme: prismThemes.duotoneLight,
+      // darkTheme: prismThemes.duotoneDark,
+      additionalLanguages: ["json", "bash"]
     },
   } satisfies Preset.ThemeConfig,
   plugins: [

@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #84b3ff;
   --ifm-color-primary-dark: #5d9bff;
   --ifm-color-primary-darker: #4a8fff;
@@ -27,4 +27,70 @@
   --ifm-color-primary-lighter: #bed7ff;
   --ifm-color-primary-lightest: #f8fbff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 255, 0.3);
+}
+
+.menu__link {
+  font-weight: 400;
+  font-size: small;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu__list-item-collapsible > a{
+  font-weight: 600;
+  color: black;
+}
+
+[data-theme="dark"] .menu__list-item-collapsible > a {
+  font-weight: 600;
+  color: white;
+}
+
+@media screen and (min-width: 997px) {
+  .navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.navbar__link {
+  font-weight: 400;
+}
+
+.navbar__link > svg {
+  display: none;
+}
+
+.navbar__search-input {
+  border-radius: 0.3rem;
+}
+
+body .docItemCol_src-theme-DocItem-Layout-styles-module {
+  max-width: 100% !important;
+}
+
+.docItemCol_src-theme-DocItem-Layout-styles-module {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 790px) {
+
+  .docItemCol_src-theme-DocItem-Layout-styles-module {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+
+.col--3 {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .col--3 {
+    display: block;
+  }
+  body .docItemCol_src-theme-DocItem-Layout-styles-module {
+    max-width: 75% !important;
+  }
 }

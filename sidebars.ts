@@ -22,6 +22,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CONFIGURATION',
+      collapsible: false,
       items: [
         'config/configuration',
         {
@@ -74,6 +75,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'CORE CONCEPTS',
+      collapsible: false,
       items: [
         'core-concepts/build-lifecycle',
         'core-concepts/why-electron-forge',
@@ -82,6 +84,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'BUILT-IN TEMPLATES',
+      collapsible: false,
       items: [
         'templates/vite',
         'templates/vite-+-typescript',
@@ -92,6 +95,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'GUIDES',
+      collapsible: false,
       items: [
         {
           type: 'category',
@@ -120,6 +124,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'ADVANCED',
+      collapsible: false,
       items: [
         'advanced/auto-update',
         'advanced/debugging',
